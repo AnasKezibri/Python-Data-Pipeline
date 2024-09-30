@@ -77,6 +77,8 @@ def extract_preprocess_clinical_trials(clinical_trials: pd.DataFrame) -> pd.Data
     clinical_trials.replace('', np.nan, inplace=True)
     clinical_trials = clinical_trials.dropna(how='any')
 
+    clinical_trials = clinical_trials[clinical_trials['scientific_title'].str.strip() != '']
+
     clinical_trials = clinical_trials.applymap(remove_malformed_encoding)
 
     clinical_trials['date'] = pd.to_datetime(clinical_trials['date'])

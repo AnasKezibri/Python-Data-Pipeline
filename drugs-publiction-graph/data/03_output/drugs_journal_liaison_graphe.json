@@ -246,15 +246,6 @@
             }
         },
         {
-            "id": "NCT04237090",
-            "label": "Publication",
-            "properties": {
-                "title": "  ",
-                "article_type": "Clinical Trials",
-                "date": "2020-01-01"
-            }
-        },
-        {
             "id": "NCT04237091",
             "label": "Publication",
             "properties": {
@@ -582,14 +573,6 @@
             "type": "MENTIONED_IN",
             "properties": {
                 "mention_date": "2020-01-01"
-            }
-        },
-        {
-            "from": "NCT04237090",
-            "to": "Journal of emergency nursing",
-            "type": "PUBLISHED_IN",
-            "properties": {
-                "publication_date": "2020-01-01"
             }
         },
         {
