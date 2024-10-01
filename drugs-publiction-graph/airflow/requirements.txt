@@ -5,3 +5,6 @@ notebook
 pytest~=7.2
 pytest-cov~=3.0
 pytest-mock>=1.7.1, <2.0
+apache-airflow-providers-docker==3.9.2
+pandas
+numpy
