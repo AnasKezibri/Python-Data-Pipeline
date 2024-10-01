@@ -40,7 +40,7 @@ docker-compose up
 ```
 
 ### 6. Accéder à Airflow
-Vous pouvez maintenant accéder à l'interface web d'Airflow à l'adresse suivante : http://localhost:8080, puis déclencher le DAG kedro_drugs_pipeline_dag.
+Vous pouvez maintenant accéder à l'interface web d'Airflow à l'adresse suivante : http://localhost:8080 (User : airflow, password : airflow), puis déclencher le DAG kedro_drugs_pipeline_dag.
 
 
 
