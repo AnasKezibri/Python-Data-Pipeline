@@ -5,7 +5,7 @@
 Avant de commencer, assurez-vous d'avoir les outils suivants installés sur votre machine :
 
 1. **Docker** et **Docker Compose** :
-   - [Installer Docker](https://docs.docker.com/get-docker/)
+   - [Installer Docker](https://docs.docker.com/get-docker/) (version v2.14.0 minimum)
    - [Installer Docker Compose](https://docs.docker.com/compose/install/)
 
 2. **Git** :
